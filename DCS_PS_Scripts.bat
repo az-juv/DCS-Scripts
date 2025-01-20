@@ -1,0 +1,2 @@
+Powershell.exe -noexit -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File "C:\Users\quadsa11\Desktop\Scripts\DCS_PS_Scripts.ps1 %arg1% %arg2%"' -Verb RunAs -Wait}"
+#Powershell.exe -noexit -NoProfile -ExecutionPolicy Bypass -Command "& {Start-Process PowerShell -ArgumentList '-NoProfile -ExecutionPolicy Bypass -File "C:\Users\quadsa11\Desktop\Scripts\GetBitlockerKey.ps1 %arg1% %arg2%"' -Wait}"
